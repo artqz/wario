@@ -10,7 +10,8 @@ const conf = {
   devServer: {
     overlay: true,
     compress: true,
-    port: 3000
+    port: 3000,
+    stats: 'errors-only'
   },
   module: {
     rules: [
