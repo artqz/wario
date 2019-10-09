@@ -19,6 +19,10 @@ const conf = {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: '/bode_modules/'
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader']
       }
     ]
   }
